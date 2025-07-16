@@ -13,5 +13,21 @@ console.log(Math.trunc(23.8767890)); //return single value remove decimal value
 
 console.log(Math.pow(5,2));//calculate power 5pov2 = 25;
 
+console.log(Math.sqrt(25));//give square root of the number 25=5 
+
+console.log(Math.cbrt(8)); //give cube root of the Number
+
+
+console.log(Math.max(454,566,7865,7889,999)) // return Max Value
+
+console.log(Math.min(454,566,7865,7889,999)) //return Minimum Value
+
+console.log(Math.random());//return random values
+
+console.log((Math.random().toFixed(4))); //return only 4 values after decimal
+
+console.log((Math.random().toFixed(0))); // do not return any number
+
+
 
 
