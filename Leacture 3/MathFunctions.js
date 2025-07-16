@@ -9,4 +9,9 @@ console.log(Math.round(9.4));//Round Off The Number Is .4 the number is going to
 console.log(Math.abs(-8)); //return Negitive Value To Positive Value 
 console.log(Math.abs(8)); //Cannot Be change it still Positive
 
+console.log(Math.trunc(23.8767890)); //return single value remove decimal value
+
+console.log(Math.pow(5,2));//calculate power 5pov2 = 25;
+
+
 
