@@ -5,8 +5,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KanakYadav001/DSA-Questions.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KanakYadav001/DSA-Questions/issues"
+  },
+  "homepage": "https://github.com/KanakYadav001/DSA-Questions#readme",
   "description": ""
 }

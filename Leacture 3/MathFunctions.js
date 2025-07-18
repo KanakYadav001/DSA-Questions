@@ -26,7 +26,7 @@ console.log(Math.random());//return random values
 
 console.log((Math.random().toFixed(4))); //return only 4 values after decimal
 
-console.log((Math.random().toFixed(0))); // do not return any number
+console.log((Math.random().toFixed(1))); // do not return any number
 
 
 
