@@ -1,6 +1,7 @@
-for(i=0 ;i<=5;i++){
+for(i=0 ;i<5;i++){
     for(j=0;j<=5 ;j++){
         process.stdout.write("* ")
     }
     console.log()
 }
+process.stdout.write("* ")
