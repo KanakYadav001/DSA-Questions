@@ -13,8 +13,8 @@ let size = Number(prompt("Enter Size of arry you want : "))
 let arr = new Array(size)
 
 for(let i=0 ;i<=size;i++){
-   let digits = Number(prompt(`Enter ${i} Digit : `))
-    arr[i]=digits
+   arr[i]= Number(prompt(`Enter ${i} Digit : `))
+    
 }
 
 console.log(arr)
