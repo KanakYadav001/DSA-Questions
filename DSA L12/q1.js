@@ -2,6 +2,8 @@ const prompt = require("prompt-sync")()
 
 let rotate = Number(prompt("Enter a Number : "))
 let arr = [1,2,3,4,5]
+
+rotate = rotate%arr.length
 for(let i =1 ; i<=rotate;i++) {
 let copy = arr[0]
 for(let k = 0 ;k<arr.length;k++) {
