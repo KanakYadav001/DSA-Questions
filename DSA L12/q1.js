@@ -1,15 +1,20 @@
-const prompt = require("prompt-sync")()
+const prompt = require("prompt-sync")();
 
-let rotate = Number(prompt("Enter a Number : "))
-let arr = [1,2,3,4,5]
+let num = Number(prompt("Enter your Position : "));
+let arr = [1, 2, 3, 4, 5, 6];
 
-rotate = rotate%arr.length
-for(let i =1 ; i<=rotate;i++) {
-let copy = arr[0]
-for(let k = 0 ;k<arr.length;k++) {
-    arr[k]=arr[k+1]
+num = num % arr.length;
+
+Change(arr, 0, num - 1);
+Change(arr, num, arr.length - 1);
+Change(arr, 0, arr.length - 1);
+console.log(arr);
+function Change(arr, i, j) {
+ while(i<j){
+     let temp = arr[i];
+  arr[i] = arr[j];
+  arr[j] = temp;
+  i++;
+  j--;
+ }
 }
-arr[arr.length-1]=copy
-}
-
-console.log(arr)
