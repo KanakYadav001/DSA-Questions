@@ -1,14 +1,29 @@
-let arr = [1,2,3,4,5,6,7]
+// let arr = [1,2,3,4,5,6,7]
 
-let i = 0, j=arr.length-1
+// let i = 0, j=arr.length-1
+
+// while(i<j){
+//     let temp = arr[i]
+//     arr[i]=arr[j]
+//     arr[j] = temp
+//     j--
+//     i++
+
+// }
+
+// console.log(arr)
+
+let arr=[22,33,44,55,66,77,99]
+
+let i=0
+let j=arr.length-1
 
 while(i<j){
     let temp = arr[i]
     arr[i]=arr[j]
-    arr[j] = temp
-    j--
+    arr[j]=temp
     i++
-
+    j--
 }
 
 console.log(arr)
