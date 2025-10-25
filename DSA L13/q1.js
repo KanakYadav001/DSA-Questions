@@ -1,11 +1,46 @@
-let arr =[22,1,4,3,7,2,3,5]
-let n=arr.length
-for(let i=0 ;i<n-1 ;i++){
-  for(let j=0 ; j<n-i-1;j++){
+// let arr =[22,1,4,3,7,2,3,5]
+// let n=arr.length
+// for(let i=0 ;i<n-1 ;i++){
+//   for(let j=0 ; j<n-i-1;j++){
+//     if(arr[j]>arr[j+1]){
+//         let temp = arr[j]
+//         arr[j] = arr[j+1]
+//         arr[j+1] = temp
+//     }
+//   }
+// }
+
+// console.log(arr)
+
+
+// let arr =[2,1,4,3,6,5,8,7]
+
+// let n = arr.length
+// for(let i=1 ;i<arr.length;i++){
+//    for(let j=0 ;j<n-i-1;j++){
+//     if(arr[j]>arr[j+1]){
+//       let temp = arr[j]
+//       arr[j] = arr[j+1]
+//       arr[j+1] = temp
+//     }
+//    }
+// }
+
+// console.log(arr)
+
+
+
+
+let arr = [22,44,11,55,33,88,77]
+
+let n = arr.length
+
+for(let i =1 ;i<arr.length;i++) {
+  for(let j=0;j<n-i-1;j++) {
     if(arr[j]>arr[j+1]){
-        let temp = arr[j]
-        arr[j] = arr[j+1]
-        arr[j+1] = temp
+      let temp = arr[j]
+      arr[j] = arr[j+1]
+      arr[j+1]  =temp 
     }
   }
 }
